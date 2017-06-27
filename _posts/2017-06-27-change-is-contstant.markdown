@@ -23,7 +23,9 @@ gem 'jquery-ui-rails'
 {% endhighlight %}
 
 Unfortunately, something has changed since the published code worked. `Sprockets::FileNotFound in Store#index`
-![jQuery UI Effect Blind](/assets/jquery-ui_effect_blind.png "Error in need of application.js fiddling")
+
+
+![jQuery UI Effect Blind](/assets/jquery-ui_effect-blind.png "Error in need of application.js fiddling")
 
 I found [the solution in the publisher's forum](https://forums.pragprog.com/forums/311/topics/12000), albeit for the book's pervious version. Slip in `/effects/` between the `jquery-ui` and `effect-blind`.
 
