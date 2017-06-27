@@ -2,14 +2,20 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Aaron, or "Ay-Ay-Ron" thanks to Key & Peele's [Substitute Teacher](https://youtu.be/Dd7FixvoKBw) skit. My last boss's last text to me was, "Were you wearing tennis shoes during the meeting?" An independent at heart, I transitioned to entrepreneurship in early 2016. Aside from [SanSolo](http://sansolo.homekeystudios.com/), my aspirations are object-oriented in nature.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+### Tech I Like to Use
+- Rails, et al
+- Jekyll
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+### Blogs I Like to Read
+- [Paul Graham](http://www.paulgraham.com/articles.html)
+- [Continuations](http://continuations.com/)
+- [Feld Thoughts](https://feld.com/)
+
+My source code for this Jekyll site can be found at
+{% include icon-github.html username="chemturion" %} /
+[chemturion](https://github.com/chemturion/chemturion.github.io).

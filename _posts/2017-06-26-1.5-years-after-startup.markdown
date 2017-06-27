@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "1.5 Years After Startup"
+date:   2017-06-26 12:38:12 -0500
+categories: startup
+published: true
+---
+I quit my job on the first business day of January 2016. Roughly 1.5 years later, this is where I am:
+
+- Narify is still a work in progress. I moved from Little Rock to Dallas to launch the Narify startup. I've learned a lot. I met a technical cofounder by mistaken identity. 6 months after starting with not much to show, I drove to the Grand Canyon to clear my mind. When I returned, I decided it was best for us to break up. I had to become my own CTO, as I couldn't depend on others to bring all my ideas to fruition. I started studying Ruby on Rails in January 2017, and haven't looked back. My plan is to become an expert Rails developer, so that I may not only support myself while maintaining my autonomy. I'm now working as Rails intern with the CTO (and seasoned Rails developer) of a startup.
+
+- SanSolo is a coliving project I started with some friends, and we've yet to buy or lease a physical building. From my experience of not having a fixed-structure-residence, I want to bring a living environment to people like myself. Our goals are to 1) decrease the cost of living near the action, 2) have flexible leasing options, and 3) be surrounded by people who share similar values.
+
+- Sharing what I've learned with others. I want to build an interactive quiz section on this site. I want to blog about my journey into and thru Rails. I already have very strong opinions (weakly held) about being verbose in the beginning, and then abstracting away the complexity. For example, don't ever use `rails generate ...` until you can create by hand what is generated.
