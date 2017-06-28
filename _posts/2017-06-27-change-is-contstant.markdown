@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adapting to Constant Change"
+title:  "jQuery UI Rails Sprockets::FileNotFound"
 date:   2017-06-27 13:45:00 -0500
 categories: rails jquery
 published: true
