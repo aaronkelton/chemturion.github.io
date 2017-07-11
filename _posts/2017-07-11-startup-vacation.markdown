@@ -10,3 +10,5 @@ I recently ran into a case of burnout. Was nice to get away to Florida beaches l
 Now I feel eager every evening to start the next day. Not too eager like when you have your first amazing idea that keeps you up all night. Just enough to make one eager to retire for the evening.
 
 I've noticed a bit of effort required to get back into the flow of things. But the muscle memory comes back fairly quickly. Command line commands, and familiarizing oneself with the codebase.
+
+I'm writing this at the end of the workday, and lethargically so. I'm mostly content to produce without much pause.
