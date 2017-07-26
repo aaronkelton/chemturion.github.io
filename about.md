@@ -7,7 +7,7 @@ published: true
 
 I'm Aaron, or "Ay-Ay-Ron" thanks to Key & Peele's [Substitute Teacher](https://youtu.be/Dd7FixvoKBw) skit. My last boss's last text to me was, "Were you wearing tennis shoes during the meeting?" An independent at heart, I transitioned to entrepreneurship in early 2016. Aside from [SanSolo](http://sansolo.homekeystudios.com/), my aspirations are object-oriented in nature.
 
-![picture of aaron kelton]({{ site.url }}/assets/aaron_vw_wagon.jpg)
+![picture of aaron kelton]({{ site.url }}/assets/aaron_vw_wagon.JPG)
 
 ### Tech I Like to Use
 - Rails, et al
