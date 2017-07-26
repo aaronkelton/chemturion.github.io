@@ -3,14 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-06-25 12:38:12 -0500
 categories: jekyll update
-<!-- tags: [tag list via space separated strings sans quotes but with brackets]
-  - tag
-  - list
-  - via
-  - indented
-  - dash
-  - per
-  - line -->
+tags: [tag list via space separated strings sans quotes but with brackets]
 published: false
 # permalink: /year/month/day/title.html
 ---
