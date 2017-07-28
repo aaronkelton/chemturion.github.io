@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a Rails Relationship the Hard Way"
-date:   2017-07-26 13:14:00 -0500
+date:   2017-07-28 13:14:00 -0500
 categories: rails database relationship
 published: true
 ---
