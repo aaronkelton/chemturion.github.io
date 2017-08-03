@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing in Rails the Hard Way"
 date:   2017-08-02 16:00:00 -0500
-categories: rails rspec testing
+categories: rails minitest testing
 published: true
 ---
 So far I've built a couple models that relate to each other, their controllers and routes, and a little React code. Before things become too unwieldy, I think now is a good time to create some tests for these guys. I'm going mostly off faith that the convention to test is generally a good thing. I can't appreciate fully how much time and effort testing will save me, but I trust this method should drive my app's development.
