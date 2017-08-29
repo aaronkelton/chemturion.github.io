@@ -5,18 +5,15 @@ permalink: /about/
 published: true
 ---
 
-I'm Aaron, or "Ay-Ay-Ron" thanks to Key & Peele's [Substitute Teacher](https://youtu.be/Dd7FixvoKBw) skit. My last boss's last text to me was, "Were you wearing tennis shoes during the meeting?" An independent at heart, I transitioned to entrepreneurship in early 2016. Aside from [SanSolo](http://sansolo.homekeystudios.com/), my aspirations are object-oriented in nature.
+I'm Aaron, or "Ay-Ay-Ron" thanks to Key & Peele's [Substitute Teacher](https://youtu.be/Dd7FixvoKBw) skit. My last boss's last text to me was, "Were you wearing tennis shoes during the meeting?" An independent at heart, I transitioned to entrepreneurship in early 2016. Launched and crashed a startup which lead me to becoming a Ruby on Rails developer. As I continually mine deeper into Ruby and Rails, my lifeline to users at the surface is React.
 
 ![picture of aaron kelton]({{ site.url }}/assets/aaron_vw_wagon.JPG)
 
-### Tech I Like to Use
-- Rails, et al
+### Tech I <3
+- Ruby
+- Rails
+- React
 - Jekyll
-
-### Blogs I Like to Read
-- [Paul Graham](http://www.paulgraham.com/articles.html)
-- [Continuations](http://continuations.com/)
-- [Feld Thoughts](https://feld.com/)
 
 My source code for this Jekyll site can be found at
 {% include icon-github.html username="chemturion" %} /
