@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby Singleton: Ballon d'Or"
-date:   2017-08-29 20:39:00 -0500
+date:   2017-08-29 18:39:00 -0500
 categories: ruby soccer
 published: true
 ---
