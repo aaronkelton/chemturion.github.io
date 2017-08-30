@@ -79,7 +79,14 @@ def clearify(catacombs)
 end
 {% endhighlight %}
 
-I need to write those tests!
+OK, so I've since updated my tests as follows:
+
+{% highlight ruby %}
+Test.assert_equals(clearify("spiders and bats!"), "")
+Test.expect_error("Both function and variable should return an empty string using a particular method. Try again or go to https://ruby-doc.org/core-2.3.0/String.html") { clearify(1) }
+{% endhighlight %}
+
+The second test is only run on the final attempt, so answers like `''` or `catacombs = ''` will work initially, but fail upon final submission. This test forces the user to employ the `#clear` method. The testing documentation wasn't helpful in getting the `Test.expect_error` to work, so I had to go looking for someone else's example. Lessons learned, and I hope to make many more Katas. :)
 
 Here's the link to the Kata in full: [https://www.codewars.com/kata/clear-the-catacombs/train/ruby](https://www.codewars.com/kata/clear-the-catacombs/train/ruby)
 
