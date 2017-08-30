@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby Singleton: Ballon dOr"
+title:  "Ruby Singleton: Ballon d'Or"
 date:   2017-08-29 18:39:00 -0500
 categories: ruby soccer
 published: true
@@ -60,7 +60,7 @@ GoldenBall.instances
 
 OK, so we've added the functionality to track our newly created instances. Each new instance is an object of the `GoldenBall` class, and that object is pushed into our `@@instances` class variable array. How can we prevent more than one instance being initialized? Let's add some conditional logic to our `#initialize` method so that we only add the new instance if our array is empty.
 
-{% highlight %}
+{% highlight ruby %}
 class GoldenBall
   # define the class variable as an empty array
   @@instances = []
