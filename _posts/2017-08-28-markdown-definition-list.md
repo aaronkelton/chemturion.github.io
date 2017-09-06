@@ -25,4 +25,10 @@ Since I've been learning Ruby on Rails, et al, I've learned what I like and disl
 #### it-just-works
 * when prior implementations took a good deal of configuration, but in this language/framework, it (the implementation) just works. We'll take your word for it, but it doesn't add to our understanding or appreciation.
 
+#### stand-up-a-local-instance
+* after forking and cloning a repository to your local machine, you gotta do some configuration and finagling so you can start working on the app in your development environment.
+
+#### MA-HM-buck40
+* managing architect; hiring manager; one hundred and forty pounds
+
 In the real world, I try to be as concrete as possible. For example, instead of ordering "scotch on the rocks" I'll ask for "scotch on ice". Same idea goes for shorthand commands. When learning, it's better to be verbose and replete in the beginning before we abstract and obfuscate code for efficiency. I'll typically request a user to use Rails console by running `rails console` instead of `rails c`.
