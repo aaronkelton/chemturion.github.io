@@ -40,17 +40,34 @@ class HomeController < ApplicationController
 end
 {% endhighlight %}
 
-Looks similar to `return` or `raise` in Ruby. Simple. Let's take it another step, by telling it exactly *what* to render:
+Looks similar to `return` or `raise` in Ruby. Simple. Let's take it another step, by telling it *what* to render:
 
 {% highlight ruby %}
 class HomeController < ApplicationController
   def about
-    render "home/about"
+    render "about"
   end
 end
 {% endhighlight %}
 
-But what exactly is "home/about"? If you answered "template", you'd be correct. Let's get more explicit:
+Ok, but what is "about", exactly? We want the "about" template located at `app/views/home`, so let's be more explicit:
+
+{% highlight ruby %}
+class HomeController < ApplicationController
+  def about
+    render template: "about"
+  end
+end
+{% endhighlight %}
+
+Drats! We get the following error now, which means that when using the `template:` argument, the path must become explicit:
+
+```
+Template is missing
+Missing template /about with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in: * "/Users/kelton/Sites/narify/app/views"
+```
+
+Let's make the path more explicit so it knows to look inside the `home` folder inside `views`:
 
 {% highlight ruby %}
 class HomeController < ApplicationController
@@ -60,7 +77,7 @@ class HomeController < ApplicationController
 end
 {% endhighlight %}
 
-Alright, so it's pretty evident that we're rendering a template, and you can probably see some duplication (which is why Rails obfuscates this if it can). We have `class HomeController` and `def about` followed by the `render template:` method where we're repeating our controller and method: `"home/about"`. I personally like to be even more explicit, like so:
+Alright, at this point you can probably see some duplication (which is why Rails obfuscates this if it can). We have `class HomeController` and `def about` followed by the `render template:` method where we're repeating our controller and method: `"home/about"`. I personally like to be even more explicit, like so:
 
 {% highlight ruby %}
 class HomeController < ApplicationController
@@ -70,13 +87,13 @@ class HomeController < ApplicationController
 end
 {% endhighlight %}
 
-But this code is pretty illustrative, as evidenced by the error I get in my browser:
+But this code is even more illustrative regarding the path, as evidenced by the error I get in my browser:
 
 ```
 Template is missing
 Missing template app/views/home/about.html.haml with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in: * "/Users/kelton/Sites/narify/app/views"
 ```
-Particularly that last bit: `Searched in: * "/Users/~/Sites/narify/app/views"`. If I'm not mistaken, the full path being searched would be `/Users/kelton/Sites/narify/app/views/app/views/home/about.html.haml`, so we could reasonably assert that we only need to specify the contents within the `views` folder.
+Particularly that last bit: `Searched in: * "/Users/~/Sites/narify/app/views"`. If I'm not mistaken, the full path being searched would be `/Users/kelton/Sites/narify/app/views/app/views/home/about.html.haml`, so we could reasonably assert that we only need to specify the contents within the `views` folder, i.e. a relative path.
 
 {% highlight ruby %}
 class HomeController < ApplicationController
@@ -85,5 +102,7 @@ class HomeController < ApplicationController
   end
 end
 {% endhighlight %}
+
+> `render template: "home/about.html"` also works, but not `render template: "home/about.haml"`
 
 I'm going to start being explicit in my controllers' `#render` methods. Similar to the testing mantra of "test until fear turns to boredom", I'm going to explicitly render until I'm comfortable with the obfuscated version. Only now will I not take any magic for granted, nor will I fail to understand what's *actually* happening. You might think that overriding the obfuscated render could produce unwanted side effects, and that would be a reason for not being explicit. But I'd argue that such an event would be yet another opportunity to better understand this method and how it relates to the rest of our application.
