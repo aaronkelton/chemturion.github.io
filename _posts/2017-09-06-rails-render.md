@@ -45,6 +45,16 @@ Looks similar to `return` or `raise` in Ruby. Simple. Let's take it another step
 {% highlight ruby %}
 class HomeController < ApplicationController
   def about
+    render "home/about"
+  end
+end
+{% endhighlight %}
+
+But what exactly is "home/about"? If you answered "template", you'd be correct. Let's get more explicit:
+
+{% highlight ruby %}
+class HomeController < ApplicationController
+  def about
     render template: "home/about"
   end
 end
