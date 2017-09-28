@@ -11,6 +11,10 @@ There's a lot of tutorials on React out there. This one by [Google's X-Team](htt
 
 [GitHub Battle by Tyler McGinnis](https://tylermcginnis.com/courses/react-fundamentals/) was a pure React implementation. Configured step by step sans Rails to learn the basics of components, props, and state.
 
+### [Food Finder](https://github.com/chemturion/food-finder)
+
+Vanilla Ruby application. Or would it be called a Raw, Uncut, or Rough Ruby app? Nevermind... it's a Ruby app you run in the terminal using `ruby init.rb`. Based on Lynda's [Ruby Essential Training](https://www.lynda.com/Ruby-tutorials/essential-training/47905-2.html).
+
 ### [Ruby on Rails 5 Essential Training](https://github.com/chemturion/content-management-system)
 
 I've taken a lot of courses on Lynda thanks to free access as a Dallas Public Library member. [This one by Kevin Skoglund](https://www.lynda.com/Ruby-Rails-tutorials/Ruby-Rails-5-Essential-Training/500551-2.html) was reinforced the basics I learned as a student at the Flatiron School. Check out those [atomic commits](https://github.com/chemturion/content-management-system/commits/master)!
